@@ -2,13 +2,8 @@
 
 using std::cout;
 using std::cin;
-//using std::cout;
 
-//void prog1() {
-
-//}
-
-void prog2() {
+int main() {
     int mult = 1;
     int digit = 0;
     int N;
@@ -20,9 +15,4 @@ void prog2() {
         N /= 10;
     }
     cout << mult;
-}
-
-int main() {
-//prog1;
-prog2;
 }
