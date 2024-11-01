@@ -29,7 +29,7 @@ void prog2() {
     int mult = 1;
     int digit = 0;
     int N;
-    cout << "enter N;" << endl; 
+    cout << "enter N:"; 
     cin >> N;
     while (N > 0) {
         digit = N % 10;
@@ -41,6 +41,8 @@ void prog2() {
 }
 
 int main() {
+    cout << "Progamm 1: " << endl;
     prog1();
+    cout << "Programm 2" << endl;
     prog2();
 }
