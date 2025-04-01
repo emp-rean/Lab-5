@@ -15,8 +15,8 @@ void prog1() {
     for (i = 0; i < n; i++) {
         if(i % 5 == 0)
             continue;
-            if (max < i)
-                max = i;
+        if (max < i)
+            max = i;
         max_number = max + 1;
         mult *= i;
     }
